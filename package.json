@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --tap | tnyan"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,19 @@
   },
   "homepage": "https://github.com/bravely/stockfighter#readme",
   "devDependencies": {
-    "ava": "^0.14.0"
+    "ava": "^0.14.0",
+    "tap-nyan": "0.0.2"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ],
+    "source": [
+      "lib/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-fetch": "^1.5.1"
   }
 }
