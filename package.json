@@ -1,0 +1,25 @@
+{
+  "name": "stockfighter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravely/stockfighter.git"
+  },
+  "keywords": [
+    "stockfighter"
+  ],
+  "author": "Jake Mays",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bravely/stockfighter/issues"
+  },
+  "homepage": "https://github.com/bravely/stockfighter#readme",
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}
